@@ -1,0 +1,17 @@
+{
+  "name": "give-me-profile",
+  "version": "1.0.0",
+  "description": "SNS profile regex parser / url renderer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blue-hope",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
