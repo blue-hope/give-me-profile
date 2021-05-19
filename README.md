@@ -21,17 +21,47 @@ $ npm i give-me-profile --save
 > (and it's quite difficult!) so feel
 > free to opening issues or PR
 
+## How to get user identifier for SNS?
+* **Facebook**
+> For your account, Open https://facebook.com/me on your browser
+
+`SNSList.FACEBOOK_USERNAME`: https://www.facebook.com/[id]
+
+`SNSList.FACEBOOK_PROFILE`: https://www.facebook.com/profile.php?id=[id]
+
+* **Instagram**
+
+`SNSList.INSTAGRAM`: https://www.instagram.com/[id]/
+
+* **LinkedIn**
+
+`SNSList.LINKEDIN`: https://www.linkedin.com/in/[id]/
+
+* Stackoverflow
+
+`SNSList.STACKOVERFLOW`: https://stackoverflow.com/users/[id]
+
+* Github
+
+`SNSList.GITHUB`: https://github.com/[id]
+
+* Gitlab
+
+`SNSList.GITLAB`: https://gitlab.com/[id]
+
+* Medium
+
+`SNSList.MEDIUM_PREFIX`: https://[id].medium.com
+
+`SNSList.MEDIUM_SUFFIX`: https://medium.com/[id]
+
+* Youtube
+
+`SNSList.YOUTUBE_USER`: https://www.youtube.com/user/[id]
+
+`SNSList.YOUTUBE_CHANNEL`: https://www.youtube.com/channel/[id]
 ## Usage
 ### We support regex for world-wide SNS's user identifier
-**SUPPORT LIST**
-* Facebook
-* Instagram
-* LinkedIn
-* Stackoverflow
-* Github
-* Gitlab
-* Medium
-* Youtube
 ```js
 import { SNSRegex, SNSList } from "give-me-profile";
 
