@@ -1,2 +1,3 @@
-profile.ts
-tsconfig.json
+.github
+.vscode
+prettierrc.json

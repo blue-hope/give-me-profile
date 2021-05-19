@@ -1,13 +1,15 @@
 {
   "name": "give-me-profile",
-  "version": "1.0.0",
-  "description": "SNS profile regex parser / url renderer",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Support regex for world-wide SNS's user identifier",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "blue-hope",
-  "license": "ISC",
+  "license": "MIT License",
   "devDependencies": {
     "typescript": "^4.2.4"
   },
