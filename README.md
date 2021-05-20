@@ -37,25 +37,25 @@ $ npm i give-me-profile --save
 
 `SNSList.LINKEDIN`: https://www.linkedin.com/in/[id]/
 
-* Stackoverflow
+* **Stackoverflow**
 
 `SNSList.STACKOVERFLOW`: https://stackoverflow.com/users/[id]
 
-* Github
+* **Github**
 
 `SNSList.GITHUB`: https://github.com/[id]
 
-* Gitlab
+* **Gitlab**
 
 `SNSList.GITLAB`: https://gitlab.com/[id]
 
-* Medium
+* **Medium**
 
 `SNSList.MEDIUM_PREFIX`: https://[id].medium.com
 
 `SNSList.MEDIUM_SUFFIX`: https://medium.com/[id]
 
-* Youtube
+* **Youtube**
 
 `SNSList.YOUTUBE_USER`: https://www.youtube.com/user/[id]
 
