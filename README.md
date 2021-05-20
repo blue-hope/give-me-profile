@@ -4,7 +4,7 @@
         <b> Support regex for world-wide SNS's user identifier </b>
     </p>
     <p>
-        <img src="https://img.shields.io/npm/v/give-me-profile.svg" alt="npm">
+        <img src="https://shields-io-visitor-counter.herokuapp.com/badge?page=blue-hope.give-me-profile&color=1D70B8&logo=GitHub&logoColor=FFFFFF&style=flat-square">
         <a href="https://www.npmjs.com/package/give-me-profile"><img src="https://img.shields.io/npm/v/give-me-profile.svg" alt="npm"></a>
         <a href="LICENSE"><img src="https://img.shields.io/github/license/blue-hope/give-me-profile" alt="license"></a>
     </p>
