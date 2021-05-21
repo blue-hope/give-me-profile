@@ -72,7 +72,7 @@ SNSRegex(SNSList.GITHUB) // /^[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$/i;
 ```js
 import { SNSTester, SNSList } from "give-me-profile";
 
-SNSTester(SNSLIST.GITHUB, "blue-hope") // true
+SNSTester(SNSList.GITHUB, "blue-hope") // true
 SNSTester(SNSList.GITHUB, "****") // false
 ```
 
@@ -80,7 +80,7 @@ SNSTester(SNSList.GITHUB, "****") // false
 ```js
 import { SNSUrlRenderer, SNSList } from "give-me-profile";
 
-SNSUrlRenderer(SNSLIST.GITHUB, "blue-hope") // https://github.com/blue-hope
+SNSUrlRenderer(SNSList.GITHUB, "blue-hope") // https://github.com/blue-hope
 ```
 
 ## License
